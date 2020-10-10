@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Дезинтекс</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a class="logo header__logo" href="#">
+        <img class="logo__icon" src="img/logo.webp" alt="logo">
+      </a>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="main__inner">
+        <div class="content">
+          <div class="content__info">
+            <h1 class="content__title animate__animated animate__fadeIn">100% защита дома от вирусов и микробов</h1>
+            <img class="content__image" src="img/product.webp" alt="product">
+            <ul class="features">
+              <li class="features__item animate__animated animate__lightSpeedInLeft ">Убивает все известные вирусы и микробы</li>
+              <li class="features__item animate__animated animate__lightSpeedInLeft animate__delay-1s">Защищает поверхности от микробов 48 часов</li>
+              <li class="features__item animate__animated animate__lightSpeedInLeft animate__delay-2s">Подходит для любых поверхностей</li>
+            </ul>
+          </div>
+        </div>
+        <div class="offers__inner ">
+          <div class="offers animate__animated animate__fadeInDown animate__delay-3s">
+            <h2 class="offers__title">Специальное предложение!</h2>
+            <p class="offers__subtitle">Специальная цена</p>
+            <span class="offers__price">149&#8381;<i class="normal">*</i></span>
+            <form class="form">
+              <div class="form__select" data-state="">
+                <div class="form__select-title" data-default="Option 0">Россия</div>
+                <div class="form__select__content">
+                  <input id="select0" class="form__select-input" type="radio" name="select" checked />
+                  <label for="select0" class="form__select-label">Россия</label>
+                  <input id="select1" class="form__select-input" type="radio" name="select" />
+                  <label for="select1" class="form__select-label">Россия</label>
+                  <input id="select2" class="form__select-input" type="radio" name="select" />
+                  <label for="select2" class="form__select-label">США</label>
+            
+                </div>
+              </div>
+              <input class="form__name" type="text" placeholder="Имя" required>
+              <input class="form__phone-number" type="number" placeholder="Телефон" required>
+              <button class="form__submit">Заказать</button>
+            </form>
+            <div class="offers__description">* при заказе набора</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
